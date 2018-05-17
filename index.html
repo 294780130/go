@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="go/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="go/css/style.css">
+    <script src="go/js/jquery-3.3.1.js"></script>
+    <script src="go/js/main.js"></script>
+    <script src="go/js/md5.js"></script>
+    <title>一切都从这里开始</title>
+</head>
+<body>
+    <!-- 导航搜索部分 -->
+    <div class="glass">
+        <section class="fst">
+            <h1>Start</h1>
+            <div class="search">
+                <input type="text" id="search"/>
+                <button id="btn">百度一下</button>
+            </div>
+        </section>
+        <!-- 与我相关转部分 -->
+        <section class="scd">
+            <h2>与我相关</h2>
+            <div class="box box_md color_purple">
+                <a href="personal_resume/index.html"></a>
+                <span class="glyphicon glyphicon-list-alt"></span>
+                <p>个人简历</p>
+            </div>
+            <div class="box box_md color_blue">
+                <a href="course/course.html"></a>
+                <span class="glyphicon glyphicon-education"></span>
+                <p>已修课程</p>
+            </div>
+            <div class="box box_lg color_orange">
+                <a href="./heatmap/index.html"></a>
+                <span class="glyphicon glyphicon-globe"></span>
+                <p class="lg_ft">热力图项目</p>
+            </div>
+            <div class="left">
+                <div class="box box_sm color_blue">
+                    <a href="./download/personal_resume.pdf"></a>
+                    <span class="glyphicon glyphicon-list"></span>
+                </div>
+                <div class="box box_sm color_red">
+                    <a href="./download/doc.pdf"></a>
+                    <span class="glyphicon glyphicon-edit"></span>
+                </div>
+                <div class="box box_sm color_green">
+                    <a href="./download/Internship.rar"></a>
+                    <span class="glyphicon glyphicon-download"></span>
+                </div>
+                <div class="box box_sm color_brown">
+                    <a href="javascript:void(0);" id="pass"></a>
+                    <span class="glyphicon glyphicon-floppy-remove"></span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="box box_md color_blue">
+                        <a href="./personal_resume/resume.html"></a>
+                        <span class="glyphicon glyphicon-plus-sign"></span>
+                        <p>简历补充</p>
+                </div>
+            </div>
+        </section>
+        <!-- 常用、校园部分 -->
+        <section class="trd">
+            <h2>最常使用 &amp; 校园生活</h2>
+            <div class="box box_md"><a href="https://www.huya.com/msi" class="md pic_2-1"></a></div>
+            <div class="box box_md"><a href="https://www.zhipin.com" class="md pic_2-2"></a></div>
+            <div class="box box_lg"><a href="https://www.taobao.com" class="lg pic_2-3"></a></div>
+            <div class="box box_md2"><a href="https://www.processon.com" class="md2 pic_2-4"></a></div>
+            <div class="box box_sm2"><a href="http://zjut.fanya.chaoxing.com" class="sm2 pic_2-5"></a></div>
+            <div class="box box_sm2"><a href="http://www.gdjw.zjut.edu.cn" class="sm2 pic_2-6"></a></div>
+            <div class="box box_sm2"><a href="http://www.yxxt.zjut.edu.cn/index.do" class="sm2 pic_2-7"></a></div>
+            <div class="box box_sm2"><a href="http://www.szyx.zjut.edu.cn/#/login" class="sm2 pic_2-8"></a></div>
+        </section>
+        <!-- 技术部分 -->
+        <section class="fth">
+            <h2>阿里腾讯 &amp; 技术常用</h2>
+            <div class="box box_md"><a href="https://www.aliyun.com" class="md pic_3-1"></a></div>
+            <div class="box box_md"><a href="https://cloud.tencent.com/act/campus" class="md pic_3-2"></a></div>
+            <div class="box box_lg"><a href="https://github.com/" class="lg pic_3-3"></a></div>
+            <div class="box box_md"><a href="https://v3.bootcss.com/" class="md pic_3-4"></a></div>
+            <div class="box box_md"><a href="http://api.jquery.com/" class="md pic_3-5"></a></div>
+        </section>
+        <!-- 实用工具部分 -->
+        <section class="fifth">
+            <h2>实用工具</h2>
+            <div class="box box_sm"><a href="http://babeljs.io/repl/" class="sm pic_4-1"></a></div>
+            <div class="box box_sm"><a href="https://www.geeksss.com/" class="sm pic_4-2"></a></div>
+            <div class="box box_sm"><a href="https://docs.npmjs.com/" class="sm pic_4-3"></a></div>
+            <div class="box box_sm"><a href="https://cli.im/" class="sm pic_4-4"></a></div>
+            <div class="box box_sm"><a href="https://tower.im/teams/9bb76d876b844f498a5d437ed67d73a9/projects/" class="sm pic_4-5"></a></div>
+        </section>
+        <!-- 文档部分 -->
+        <section class="sixth">
+            <h2>框架文档 &amp; 工具文档</h2>
+            <div class="box box_md"><a href="https://angular.io/docs" class="md pic_5-1"></a></div>
+            <div class="box box_md"><a href="https://reactjs.org/docs" class="md pic_5-2"></a></div>
+            <div class="box box_lg"><a href="http://nodejs.cn/api/" class="lg pic_5-3"></a></div>
+            <div class="box box_md"><a href="https://cn.vuejs.org/v2/api/" class="md pic_5-4"></a></div>
+            <div class="box box_md"><a href="https://www.gulpjs.com.cn/docs/api/" class="md pic_5-5"></a></div>
+        </section>
+    </div>
+</body>
+</html>
