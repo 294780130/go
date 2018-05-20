@@ -63,5 +63,4 @@ window.onload = function(){
 			$(cla).append(image);
 	}
 	$(".all").css("background-image","linear-gradient(rgba(84, 84, 84, 0), rgba(84, 84, 84, 0)),url(go/img_high/bg1.jpg)").fadeIn(3000);
-//	$("body").css("background-image","linear-gradient(rgba(84, 84, 84, 0.4), rgba(84, 84, 84, 0.4)),url(go/img_high/bg1.jpg)");
 }
