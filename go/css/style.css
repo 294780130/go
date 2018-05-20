@@ -7,8 +7,7 @@ html{
 }
 
 body{
-    /* background-color: #1d1d1d; */
-    background-image: url(../img/bg1.jpg);
+    background-color: #7B7B7B;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -107,12 +106,13 @@ body section.fifth{
 
 .glass{
     width: 100%;
+    min-width: 1850px;
     height: 100%;
     margin: 0 auto;
     -webkit-backdrop-filter: blur(15px); 
     backdrop-filter: blur(15px); 
-    /* background: rgba(255, 255, 255, 0.6); */
-    background: rgba(0, 0, 0, 0.4);
+/*    background: rgba(255, 255, 255, 0.2);*/
+     background: rgba(0, 0, 0, 0.2); 
 }
 body section.fst h1{
     color: white;
@@ -225,6 +225,10 @@ section div a.lg{
     height: 150px;
 }
 
+section div a{
+	z-index: 666;
+}
+
 .pic_2-1{
     background-color: white;
     background-image: url("../img/2-1.jpg");
@@ -311,7 +315,7 @@ section div a.lg{
 }
 
 .pic_4-5{
-    background-color: white;
+    background-color: #53bdb1;
     background-image: url("../img/4-5.jpg");
 }
 
@@ -435,3 +439,28 @@ section div a.lg{
       font-size: 30px;
       top:-100px;
   }
+
+div.all{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	display: none;
+	background-size:100% 100%;
+	-moz-background-size:100% 100%;
+}
+
+div.all img{
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+div.box a:hover{
+/*	position: relative;*/
+	border: 0;
+/*	top:-2px;*/
+	box-shadow: 0 0 1px 1px #FFFFCC;
+}
